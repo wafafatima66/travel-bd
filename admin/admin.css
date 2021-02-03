@@ -1,0 +1,74 @@
+  
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 85px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .admin-content-area{
+      width: calc(100% - 250px);
+      margin-left: 250px;
+  }
+  
+.heading{
+	padding: 5px 0;
+}
+.heading h2{
+    font-size: 2rem;
+    color: #fff;
+}
+.heading p {
+    font-size:25px;
+    color: #fff;
+}
+.logo{
+font-family: 'Dancing Script', cursive;
+margin: 5px;
+}
+
+.logo a{
+	padding: 2px;
+	width:100%;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.admin-nav{
+	background-color: #00cc00;
+}
+.admin-form{
+	width: 500px;
+}
+.btn-admin{
+	background-color: #00cc00;
+	color: #fff;
+}
+.btn-green{
+    background-color: #00cc00;
+	color: #fff;
+}
+.btn-red{
+    background-color: #cc0700;
+	color: #fff;
+}

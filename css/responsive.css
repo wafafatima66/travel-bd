@@ -1,0 +1,139 @@
+@media screen and (max-width: 375px) {
+
+  .show-menu ,.hide-menu{
+    display: block;
+  }
+  .top{
+
+  }
+  .top-logo{
+    padding: 0 15px ;
+  }
+  
+    .menu{
+     width: 60%;
+     display: none;
+     position: fixed;
+     top: 0;
+     right: 0;
+     height: 300px;
+     border: 1px solid #c3c3c3;
+     align-content: center;
+    
+    }
+    .menu ul{
+      display: block;
+    }
+    .menu ul li{
+      margin-top: 40px;
+      width: 200px;
+    }
+    .menu ul li a {
+      color: #000;
+      
+    }
+    .menu:target {
+     display: block;
+    }
+    .hide-menu{
+      position: absolute;
+      top: 5px;
+      right: 20px;
+    }
+  .container{
+    display: block;
+    height: 50vh;
+  }
+  .outer {
+    height: 50vh;
+  }
+  .welcome h1 {
+    font-size: 2rem;
+  }
+ 
+  .about-details {
+    margin-top: 50px;
+    width: 375px;
+
+    overflow: hidden;
+    }
+    .about-details img{
+    
+    width: 100%;
+    height: 450px;
+    }
+    .about-text{
+      float: none;
+    }
+
+ 
+  .skill-wrapper{
+    margin-top: 40px;
+  
+  }
+  .skill-section-area {
+    width: 80%;
+  }
+  .skill-details {
+    width: 25%;
+    float: left;
+    }
+    .skill-section-area {
+      width: 90%;
+      float: right;
+      border-left: 2px solid #000;
+      padding-left: 10px;
+      
+      }
+      .skill-name {
+      width: 40%;
+      float: left;
+      
+      }
+      .skill-name p {
+      float: left;
+      font-size: 16px;
+      font-weight: 900;
+      margin-top: 7px;
+      
+      }
+      .skill-section {
+      width: 44%;
+      height: 8px;
+      float: left;
+      background-color: #ccc;
+      margin: 15px 20px 15px 0px;
+      border-radius: 30px;
+      
+      }
+      .skill-section-percentage {
+      width: 85%;
+      height: 100%;
+      background-color: #00cc00;
+      border-radius: 30px;
+      }
+    .service-row{
+      width: 100%;
+      margin-top: 0;
+    }
+    .service-col{
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 0;
+      margin-top: 10px;
+      margin-bottom: 0;
+
+    }
+    .testimonial-col {
+      width: 330px;
+      height: 400px;
+      background-color: #ccc;
+      position: relative;
+      float: none;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .footer-col {
+      float: none;;
+    }
+}
